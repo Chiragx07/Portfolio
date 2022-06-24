@@ -1,0 +1,245 @@
+:root{
+	--bgcolor:#beb8ac;
+	--orange:#f0c21d;
+	--black:#3D3F42;
+	--white:#f4f7ff;
+	--gray:#d8dce4;
+	--lightgray:#525356f3;
+}
+*{
+	margin: -0.1rem;
+	padding: -1rem;
+	box-sizing: border-box;
+	font-family: monospace;
+}
+body{
+	background: var(--bgcolor);
+}
+.clearfix{
+	clear: both;
+}
+.resume-box{
+	width: 60rem;
+	height: 90rem;
+	margin: 5rem auto;
+	background: var(--white);
+	box-shadow: 0.3rem 5rem 5rem 4rem #3d3f4238;
+}
+.left-section{
+	background: var(--black);
+	width: 19rem;
+	height: 90rem;
+	float: left;
+}
+.profile{
+	overflow: hidden;
+	position: relative;
+}
+.orange-box{
+    width: 19.6rem;
+    height: 32rem;
+    background: var(--orange);
+    margin-left: -7.5rem;
+    transform: rotateZ(47deg);
+    margin-top: -13.4rem;
+}
+.profile-img{
+   position: absolute;
+    z-index: 1;
+    width: 11rem;
+    height: 11rem;
+    transform: translate(-5.5rem, -5.5rem);
+    left: 10rem;
+    top: 8.9rem;
+    border-radius: 1rem;
+}
+.name{
+    color: var(--gray);
+    text-align: center;
+    margin-top: -1rem;
+    font-size: 2.5rem;
+    letter-spacing: 0.2rem;
+    font-weight: 400;
+}
+.name span{
+	color: var(--orange);
+}
+.p{
+	width: 15rem;
+    margin: 5rem auto;
+    text-align: center;
+    padding: 0.5rem;
+    border-bottom: 0.2rem solid var(--gray);
+    border-top: 0.2rem solid var(--gray);
+    color: var(--gray);
+    font-size: x-large;
+    margin-top: 2rem;
+}
+.info{
+	margin-top: 8rem;
+}
+.heading{
+	width: 15rem;
+    margin: 1rem auto;
+    padding: 0.3rem;
+    border-bottom: 0.1rem solid var(--gray);
+    border-top: 0.1rem solid var(--gray);
+    color: var(--gray);
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.p1{
+	color: var(--gray);
+	width: 12rem;
+	margin: 1rem auto;
+	margin-top: 2.2rem;
+	font-size: 1rem;
+    line-height: 1rem;
+    font-style: oblique;
+}
+.p1 span{
+	font-size: 1rem;
+}
+.p1 span2{
+    font-weight: 900;
+    font-size: large;
+    font-style: italic;
+}
+.span1 img{
+	background: white;
+    width: 2.9rem;
+    padding: 0.1rem;
+    border-radius: 1rem;
+    float: left;
+    margin-right: 1.5rem;
+}
+.right-section{
+	padding: 2.5rem 1rem;
+    background: var(--white);
+    width: 40rem;
+    float: left;
+    height: 20rem;
+}
+.right-heading img{
+	background: #3d3f42;
+    width: 3.5rem;
+    padding: 0.3rem;
+    height: 3.5rem;
+    border-radius: 1rem;
+    float: left;
+    display: inline-block;
+    margin-top: -1rem;
+}
+.p2{
+    margin: 0 auto;
+    padding: 0.4rem;
+    border-bottom: 0.2rem solid var(--lightgray);
+    border-top: 0.2rem solid var(--lightgray);
+    color: var(--black);
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin-left: 4rem;
+    line-height: 1rem;
+}
+.p3{
+	margin-top: 1.25rem;
+	color:solid var(--lightgray);
+	text-align: justify;
+	word-spacing: -0.2rem;
+}
+.left{
+	width: 25%;
+	float: left;
+}
+.right{
+	width: 75%;
+	float: left;
+}
+.lr-box{
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+.p4{
+	font-size: 1rem;
+	font-weight: 600;
+}
+.p5{
+	font-size: 1rem;
+	color: var(--lightgray);
+}
+.s-box{
+	width: 19rem;
+    float: left;
+    padding: 2rem 2rem 2rem 0rem;
+}
+#progress {
+    background: #333;
+    border-radius: 1rem;
+    height: 0.6rem;
+    width: 14rem;
+}
+
+#progress:after {
+    content: '';
+    display: block;
+    background: var(--orange);
+    width: 7rem;
+    height: 0.6rem;
+    border-radius: 2rem;
+}
+#progress1 {
+    background: #333;
+    border-radius: 2rem;
+    height: 0.6rem;
+    width: 14rem;
+}
+#progress1:after {
+    content: '';
+    display: block;
+    background: var(--orange);
+    width: 10rem;
+    height: 0.6rem;
+    border-radius: 2rem;
+}
+#progress2 {
+    background: #333;
+    border-radius: 2rem;
+    height: 0.6rem;
+    width: 17rem;
+}
+#progress2:after {
+    content: '';
+    display: block;
+    background: var(--orange);
+    width: 14rem;
+    height: 0.6rem;
+    border-radius: 2rem;
+}
+#progress3 {
+    background: #333;
+    border-radius: 2rem;
+    height: 0.6rem;
+    width: 17rem;
+}
+#progress3:after {
+    content: '';
+    display: block;
+    background: var(--orange);
+    width: 14rem;
+    height: 0.6rem;
+    border-radius: 2rem;
+}
+.p6{
+	margin-top: 0.8rem;
+	margin-bottom: 0.8rem;
+}
+.h-img{
+	margin-top: 0.5rem;
+    width: 13rem;
+    float: left;
+    margin-right: 1rem;
+}
+
+
+
